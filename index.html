@@ -1,0 +1,1243 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>推特女神福利吃瓜 - 官方视频门户 | 原创高清娱乐影像社区</title>
+<meta name="description" content="推特女神福利吃瓜官方网站，专注娱乐热点、原创影像与创作者社区的品质视频平台，汇聚高清精品内容与企业级内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23131620'/%3E%3Cpath d='M22 20l24 12-24 12z' fill='%23ff4d6d'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --tg-bg:#0f1117;
+    --tg-panel:#161a24;
+    --tg-panel-2:#1c2130;
+    --tg-line:#2a3145;
+    --tg-text:#e8eaf2;
+    --tg-mute:#9aa3bc;
+    --tg-accent:#ff4d6d;
+    --tg-accent-2:#38e1c6;
+    --tg-amber:#ffc857;
+    --tg-radius:14px;
+    --tg-shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;scroll-padding-top:118px;}
+  body{
+    margin:0;
+    background:radial-gradient(1200px 600px at 80% -10%, #232a3d 0%, transparent 60%), var(--tg-bg);
+    color:var(--tg-text);
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:var(--tg-accent-2);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .tg-wrap{width:min(1180px,92vw);margin:0 auto;}
+  .tg-btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:11px 22px;border-radius:999px;border:1px solid var(--tg-line);
+    background:var(--tg-panel-2);color:var(--tg-text);
+    font-size:14px;cursor:pointer;transition:.22s;font-weight:600;
+  }
+  .tg-btn:hover{transform:translateY(-2px);border-color:var(--tg-accent);text-decoration:none;}
+  .tg-btn--primary{background:linear-gradient(135deg,var(--tg-accent),#ff7a59);border-color:transparent;color:#fff;}
+  .tg-btn--ghost{background:transparent;}
+  .tg-chip{
+    display:inline-block;padding:3px 11px;border-radius:999px;
+    background:rgba(56,225,198,.1);color:var(--tg-accent-2);
+    font-size:12px;border:1px solid rgba(56,225,198,.3);margin:0 6px 6px 0;
+  }
+  .tg-chip--pink{background:rgba(255,77,109,.12);color:#ff8aa0;border-color:rgba(255,77,109,.35);}
+
+  /* ============ S1 公告条 + 页头 ============ */
+  .tg-sticky-shell{
+    position:sticky;top:0;z-index:90;
+    backdrop-filter:blur(14px);
+    background:rgba(15,17,23,.9);
+    border-bottom:1px solid var(--tg-line);
+  }
+  .tg-notice{
+    background:linear-gradient(90deg,#2a1a2e,#1c2130 55%,#182a2a);
+    border-bottom:1px solid var(--tg-line);
+    font-size:13px;overflow:hidden;
+  }
+  .tg-notice-inner{
+    display:flex;align-items:center;gap:14px;padding:8px 0;
+  }
+  .tg-notice-badge{
+    flex:none;background:var(--tg-accent);color:#fff;font-weight:700;
+    font-size:11px;padding:2px 9px;border-radius:5px;letter-spacing:1px;
+  }
+  .tg-notice-track{
+    display:flex;gap:44px;white-space:nowrap;
+    animation:tgScrollNotice 32s linear infinite;color:var(--tg-mute);
+  }
+  .tg-notice-track b{color:var(--tg-text);font-weight:600;}
+  @keyframes tgScrollNotice{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+  @media (prefers-reduced-motion: reduce){.tg-notice-track{animation:none;}}
+
+  .tg-header{padding:12px 0;}
+  .tg-header-inner{display:flex;align-items:center;gap:20px;}
+  .tg-brand{display:flex;align-items:center;gap:10px;flex:none;}
+  .tg-brand-mark{
+    width:38px;height:38px;border-radius:11px;flex:none;
+    background:linear-gradient(135deg,var(--tg-accent),#a855f7);
+    display:grid;place-items:center;font-weight:800;color:#fff;font-size:17px;
+  }
+  .tg-brand-text{font-size:17px;font-weight:800;letter-spacing:.5px;line-height:1.2;}
+  .tg-brand-text small{display:block;font-size:10px;color:var(--tg-mute);font-weight:500;letter-spacing:2px;}
+  .tg-nav{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap;}
+  .tg-nav a{
+    color:var(--tg-mute);font-size:14px;padding:7px 12px;border-radius:9px;transition:.2s;
+  }
+  .tg-nav a:hover{background:var(--tg-panel-2);color:var(--tg-text);text-decoration:none;}
+  .tg-search{
+    display:flex;align-items:center;gap:8px;background:var(--tg-panel);
+    border:1px solid var(--tg-line);border-radius:999px;padding:6px 6px 6px 15px;flex:none;
+  }
+  .tg-search input{
+    background:transparent;border:0;outline:0;color:var(--tg-text);width:132px;font-size:13px;
+  }
+  .tg-search input::placeholder{color:#6b7592;}
+  .tg-search button{
+    border:0;border-radius:999px;background:var(--tg-accent);color:#fff;
+    padding:6px 14px;font-size:12.5px;cursor:pointer;font-weight:600;
+  }
+  .tg-search-msg{
+    font-size:12.5px;color:var(--tg-amber);display:none;padding:0 0 8px;
+  }
+  .tg-search-msg.is-on{display:block;}
+  .tg-burger{
+    display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--tg-line);
+    background:var(--tg-panel);color:var(--tg-text);font-size:19px;cursor:pointer;flex:none;
+  }
+  .tg-mobile-nav{display:none;padding:10px 0 16px;}
+  .tg-mobile-nav.is-open{display:block;}
+  .tg-mobile-nav a{
+    display:block;padding:10px 12px;color:var(--tg-mute);border-radius:8px;font-size:14.5px;
+  }
+  .tg-mobile-nav a:hover{background:var(--tg-panel-2);color:var(--tg-text);text-decoration:none;}
+
+  @media (max-width:980px){
+    .tg-nav, .tg-search{display:none;}
+    .tg-burger{display:block;margin-left:auto;}
+  }
+
+  /* ============ HERO 全幅主视觉背景与浮动文字 ============ */
+  .tg-hero{position:relative;overflow:hidden;border-bottom:1px solid var(--tg-line);}
+  .tg-hero-bg{position:absolute;inset:0;z-index:0;}
+  .tg-hero-bg img{width:100%;height:100%;object-fit:cover;opacity:.55;}
+  .tg-hero-bg::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(100deg,rgba(15,17,23,.96) 34%,rgba(15,17,23,.55) 68%,rgba(15,17,23,.2) 100%);
+  }
+  .tg-hero-inner{position:relative;z-index:2;padding:72px 0 64px;}
+  .tg-hero-tag{
+    display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:2px;
+    color:var(--tg-accent-2);border:1px solid rgba(56,225,198,.35);
+    background:rgba(56,225,198,.07);padding:5px 14px;border-radius:999px;margin-bottom:20px;
+  }
+  .tg-hero h1{
+    font-size:clamp(38px,6vw,72px);line-height:1.08;margin:0 0 8px;
+    letter-spacing:2px;font-weight:900;
+    background:linear-gradient(120deg,#fff 20%,#ffb3c1 60%,#38e1c6 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .tg-hero-sub{
+    font-size:clamp(15px,1.8vw,19px);color:#cfd5e8;max-width:660px;margin:14px 0 0;
+  }
+  .tg-hero-lead{
+    max-width:645px;color:var(--tg-mute);font-size:14.5px;margin:18px 0 0;
+  }
+  .tg-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;}
+  .tg-hero-stats{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:16px;max-width:660px;margin-top:38px;
+  }
+  .tg-stat{
+    background:rgba(22,26,36,.72);border:1px solid var(--tg-line);
+    border-radius:var(--tg-radius);padding:16px 18px;
+  }
+  .tg-stat strong{display:block;font-size:26px;color:#fff;font-weight:800;letter-spacing:.5px;}
+  .tg-stat span{font-size:12.5px;color:var(--tg-mute);}
+  @media (max-width:620px){
+    .tg-hero-stats{grid-template-columns:1fr;}
+    .tg-hero-inner{padding:48px 0 44px;}
+  }
+
+  /* ============ 通用 section ============ */
+  .tg-section{padding:64px 0;border-bottom:1px solid rgba(42,49,69,.6);}
+  .tg-section:last-of-type{border-bottom:0;}
+  .tg-sec-head{margin-bottom:30px;}
+  .tg-sec-kicker{
+    font-size:12px;letter-spacing:3px;color:var(--tg-accent);font-weight:700;
+    text-transform:uppercase;margin:0 0 8px;
+  }
+  .tg-sec-head h2{
+    font-size:clamp(24px,3vw,34px);margin:0 0 10px;font-weight:800;letter-spacing:1px;
+  }
+  .tg-sec-head p{margin:0;color:var(--tg-mute);max-width:780px;font-size:14.5px;}
+  .tg-grid{display:grid;gap:20px;minmax:0;}
+  .tg-g2{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .tg-g3{grid-template-columns:repeat(3,minmax(0,1fr));}
+  @media (max-width:880px){.tg-g2,.tg-g3{grid-template-columns:1fr;}}
+
+  /* ============ 焦点大图 + 文字列表 ============ */
+  .tg-focus{display:grid;grid-template-columns:1.15fr 1fr;gap:26px;min-width:0;}
+  @media (max-width:920px){.tg-focus{grid-template-columns:1fr;}}
+  .tg-focus-card{
+    background:var(--tg-panel);border:1px solid var(--tg-line);
+    border-radius:18px;overflow:hidden;box-shadow:var(--tg-shadow);
+    transition:.28s;
+  }
+  .tg-focus-card:hover{transform:translateY(-4px);border-color:#3a4460;}
+  .tg-thumb{position:relative;aspect-ratio:16/9;background:#0b0d13;overflow:hidden;}
+  .tg-thumb img{width:100%;height:100%;object-fit:cover;}
+  .tg-play{
+    position:absolute;inset:0;display:grid;place-items:center;
+    background:linear-gradient(0deg,rgba(0,0,0,.5),transparent 55%);
+  }
+  .tg-play i{
+    width:56px;height:56px;border-radius:50%;display:grid;place-items:center;
+    background:rgba(255,77,109,.9);color:#fff;font-style:normal;font-size:20px;
+    box-shadow:0 0 0 8px rgba(255,77,109,.18);
+  }
+  .tg-focus-body{padding:20px 22px 24px;}
+  .tg-focus-body h3{margin:0 0 10px;font-size:21px;font-weight:800;line-height:1.4;}
+  .tg-focus-body p{margin:0 0 14px;color:var(--tg-mute);font-size:14px;}
+  .tg-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:#7f89a6;margin-bottom:14px;}
+  .tg-actions{display:flex;flex-wrap:wrap;gap:10px;}
+  .tg-mini-btn{
+    display:inline-flex;align-items:center;gap:6px;font-size:12.5px;
+    padding:6px 13px;border-radius:999px;border:1px solid var(--tg-line);
+    background:transparent;color:var(--tg-mute);cursor:pointer;transition:.2s;
+  }
+  .tg-mini-btn:hover{border-color:var(--tg-accent);color:#fff;}
+  .tg-mini-btn.is-active{background:rgba(255,77,109,.16);border-color:var(--tg-accent);color:#ff8aa0;}
+  .tg-mini-btn.is-saved{background:rgba(255,200,87,.14);border-color:var(--tg-amber);color:var(--tg-amber);}
+
+  .tg-textlist{display:flex;flex-direction:column;gap:14px;}
+  .tg-textitem{
+    display:grid;grid-template-columns:44px 1fr;gap:14px;
+    background:var(--tg-panel);border:1px solid var(--tg-line);
+    border-radius:var(--tg-radius);padding:16px 18px;transition:.22s;
+  }
+  .tg-textitem:hover{border-color:#3d4763;transform:translateX(4px);}
+  .tg-rank{
+    width:44px;height:44px;border-radius:11px;display:grid;place-items:center;
+    font-weight:800;font-size:17px;background:var(--tg-panel-2);color:var(--tg-amber);
+    border:1px solid var(--tg-line);
+  }
+  .tg-textitem h3{margin:0 0 6px;font-size:15.5px;font-weight:700;line-height:1.5;}
+  .tg-textitem p{margin:0 0 8px;color:var(--tg-mute);font-size:13px;line-height:1.65;}
+  .tg-textitem .tg-meta{margin-bottom:8px;font-size:12px;gap:12px;}
+
+  /* ============ 关键词解析 ============ */
+  .tg-deep{background:linear-gradient(180deg,#141824,#101319);border:1px solid var(--tg-line);border-radius:20px;padding:34px 34px 30px;}
+  .tg-deep h2{font-size:clamp(23px,2.8vw,30px);margin:0 0 6px;}
+  .tg-deep h3{font-size:17.5px;margin:28px 0 10px;color:#fff;border-left:3px solid var(--tg-accent);padding-left:12px;}
+  .tg-deep p{color:#b9c1d8;font-size:14.5px;margin:0 0 14px;}
+  .tg-deep .tg-quote{
+    border-left:3px solid var(--tg-accent-2);background:rgba(56,225,198,.06);
+    padding:14px 18px;border-radius:0 10px 10px 0;color:#c9f4ec;font-size:14px;margin:20px 0;
+  }
+  @media (max-width:620px){.tg-deep{padding:24px 18px;}}
+
+  /* ============ 两列卡片视频 ============ */
+  .tg-vcard{
+    background:var(--tg-panel);border:1px solid var(--tg-line);border-radius:16px;
+    overflow:hidden;transition:.26s;display:flex;flex-direction:column;
+  }
+  .tg-vcard:hover{transform:translateY(-4px);border-color:#3b4560;box-shadow:var(--tg-shadow);}
+  .tg-vcard-body{padding:18px 20px 20px;}
+  .tg-vcard h3{margin:0 0 8px;font-size:17px;line-height:1.45;font-weight:800;}
+  .tg-vcard p{margin:0 0 12px;color:var(--tg-mute);font-size:13.5px;}
+
+  /* ============ 作者区 双列简介 ============ */
+  .tg-author{
+    display:grid;grid-template-columns:56px 1fr;gap:16px;
+    background:var(--tg-panel);border:1px solid var(--tg-line);
+    border-radius:16px;padding:20px;transition:.24s;
+  }
+  .tg-author:hover{border-color:#3b4560;transform:translateY(-3px);}
+  .tg-avatar{
+    width:56px;height:56px;border-radius:16px;display:grid;place-items:center;
+    font-weight:800;font-size:20px;color:#0f1117;flex:none;
+  }
+  .tg-author h3{margin:0 0 4px;font-size:16px;font-weight:800;}
+  .tg-author .tg-role{font-size:12px;color:var(--tg-accent-2);margin-bottom:6px;}
+  .tg-author p{margin:0 0 10px;font-size:13px;color:var(--tg-mute);}
+  .tg-author .tg-nums{display:flex;gap:16px;font-size:12px;color:#7f89a6;flex-wrap:wrap;}
+  .tg-author .tg-nums b{color:#dbe1f2;font-weight:700;}
+
+  /* ============ 专题 ============ */
+  .tg-topic{
+    background:var(--tg-panel);border:1px solid var(--tg-line);border-radius:16px;
+    padding:22px;display:flex;flex-direction:column;gap:10px;
+  }
+  .tg-topic-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;}
+  .tg-topic h3{margin:0;font-size:17px;font-weight:800;}
+  .tg-status{font-size:11.5px;padding:2px 10px;border-radius:999px;background:rgba(255,200,87,.12);color:var(--tg-amber);border:1px solid rgba(255,200,87,.3);white-space:nowrap;flex:none;}
+  .tg-status--live{background:rgba(56,225,198,.12);color:var(--tg-accent-2);border-color:rgba(56,225,198,.32);}
+  .tg-topic>p{margin:0;color:var(--tg-mute);font-size:13.5px;}
+  .tg-topic ul{margin:0;padding-left:18px;color:#b9c1d8;font-size:13.5px;}
+  .tg-topic ul li{margin:5px 0;}
+
+  /* ============ 评论区 引用摘录 ============ */
+  .tg-cmts{display:grid;gap:18px;grid-template-columns:repeat(2,minmax(0,1fr));}
+  @media (max-width:880px){.tg-cmts{grid-template-columns:1fr;}}
+  .tg-cmt{
+    background:linear-gradient(160deg,var(--tg-panel),#12151e);
+    border:1px solid var(--tg-line);border-radius:16px;padding:20px 22px;position:relative;
+  }
+  .tg-cmt::before{
+    content:"“";position:absolute;top:2px;right:18px;font-size:52px;color:rgba(255,77,109,.22);
+    font-family:Georgia,serif;line-height:1;
+  }
+  .tg-cmt p{margin:0 0 12px;font-size:14px;color:#c8cfe3;}
+  .tg-cmt-by{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--tg-mute);}
+  .tg-dot{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:800;color:#0f1117;flex:none;}
+
+  /* ============ FAQ ============ */
+  .tg-faq{display:flex;flex-direction:column;gap:12px;}
+  .tg-faq details{
+    background:var(--tg-panel);border:1px solid var(--tg-line);border-radius:12px;
+    padding:0 18px;transition:.2s;
+  }
+  .tg-faq details[open]{border-color:var(--tg-accent);background:var(--tg-panel-2);}
+  .tg-faq summary{
+    cursor:pointer;padding:15px 0;font-weight:700;font-size:14.5px;list-style:none;
+    display:flex;justify-content:space-between;gap:12px;align-items:center;
+  }
+  .tg-faq summary::-webkit-details-marker{display:none;}
+  .tg-faq summary::after{content:"+";color:var(--tg-accent);font-size:20px;font-weight:400;line-height:1;}
+  .tg-faq details[open] summary::after{content:"−";}
+  .tg-faq details p{margin:0 0 16px;color:var(--tg-mute);font-size:13.5px;}
+
+  /* ============ 企业动态时间线 ============ */
+  .tg-timeline{position:relative;padding-left:26px;display:flex;flex-direction:column;gap:22px;}
+  .tg-timeline::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--tg-accent),transparent);}
+  .tg-tl-item{position:relative;}
+  .tg-tl-item::before{
+    content:"";position:absolute;left:-26px;top:7px;width:14px;height:14px;border-radius:50%;
+    background:var(--tg-bg);border:3px solid var(--tg-accent);
+  }
+  .tg-tl-item time{font-size:12px;color:var(--tg-accent-2);letter-spacing:1px;}
+  .tg-tl-item h3{margin:3px 0 5px;font-size:15.5px;font-weight:800;}
+  .tg-tl-item p{margin:0;color:var(--tg-mute);font-size:13.5px;}
+
+  /* ============ 合作品牌 ============ */
+  .tg-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;}
+  @media (max-width:800px){.tg-partners{grid-template-columns:repeat(2,minmax(0,1fr));}}
+  .tg-partner{
+    border:1px dashed var(--tg-line);border-radius:12px;padding:18px 10px;
+    text-align:center;font-size:14px;font-weight:700;color:#aab3cc;transition:.2s;
+  }
+  .tg-partner:hover{border-color:var(--tg-accent-2);color:var(--tg-accent-2);}
+
+  /* ============ 投稿/联系条 ============ */
+  .tg-cta{
+    display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:center;
+    background:linear-gradient(120deg,#251726,#181f2c 60%,#132a2a);
+    border:1px solid var(--tg-line);border-radius:20px;padding:32px;
+  }
+  @media (max-width:820px){.tg-cta{grid-template-columns:1fr;}}
+  .tg-cta h2{margin:0 0 10px;font-size:clamp(22px,2.6vw,28px);}
+  .tg-cta p{margin:0;color:var(--tg-mute);font-size:14px;}
+  .tg-cta-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end;}
+  @media (max-width:820px){.tg-cta-actions{justify-content:flex-start;}}
+
+  /* ============ 页脚 ============ */
+  .tg-footer{background:#0b0d13;border-top:1px solid var(--tg-line);padding:48px 0 26px;margin-top:0;}
+  .tg-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:28px;}
+  @media (max-width:880px){.tg-footer-grid{grid-template-columns:1fr 1fr;}}
+  .tg-footer h3{font-size:13.5px;letter-spacing:2px;color:#fff;margin:0 0 14px;text-transform:uppercase;}
+  .tg-footer ul{list-style:none;margin:0;padding:0;}
+  .tg-footer li{margin:8px 0;font-size:13px;color:var(--tg-mute);}
+  .tg-footer a{color:var(--tg-mute);font-size:13px;}
+  .tg-footer a:hover{color:var(--tg-accent-2);}
+  .tg-footer-brand p{color:var(--tg-mute);font-size:13px;margin:12px 0 0;max-width:320px;}
+  .tg-copy{border-top:1px solid var(--tg-line);margin-top:32px;padding-top:18px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:12.5px;color:#6b7592;}
+
+  /* ============ 回到顶部 ============ */
+  .tg-top{
+    position:fixed;right:22px;bottom:22px;z-index:80;width:46px;height:46px;border-radius:50%;
+    border:1px solid var(--tg-line);background:var(--tg-panel-2);color:var(--tg-text);
+    cursor:pointer;font-size:17px;display:grid;place-items:center;opacity:0;pointer-events:none;
+    transition:.25s;box-shadow:var(--tg-shadow);
+  }
+  .tg-top.is-on{opacity:1;pointer-events:auto;}
+
+  /* ============ Toast ============ */
+  .tg-toast{
+    position:fixed;left:50%;bottom:28px;transform:translate(-50%,16px);
+    background:#eef1fa;color:#141826;padding:11px 22px;border-radius:999px;
+    font-size:13.5px;font-weight:700;z-index:120;opacity:0;pointer-events:none;transition:.28s;
+    box-shadow:0 12px 30px rgba(0,0,0,.4);
+  }
+  .tg-toast.is-on{opacity:1;transform:translate(-50%,0);}
+
+  /* ============ 弹窗 ============ */
+  .tg-modal{
+    position:fixed;inset:0;z-index:110;background:rgba(6,8,13,.72);
+    display:none;place-items:center;padding:20px;backdrop-filter:blur(4px);
+  }
+  .tg-modal.is-on{display:grid;}
+  .tg-modal-box{
+    width:min(520px,94vw);background:var(--tg-panel);border:1px solid var(--tg-line);
+    border-radius:18px;padding:26px;box-shadow:var(--tg-shadow);
+  }
+  .tg-modal-box h3{margin:0 0 8px;font-size:19px;}
+  .tg-modal-box p{color:var(--tg-mute);font-size:13.5px;margin:0 0 16px;}
+  .tg-modal-box textarea, .tg-modal-box input{
+    width:100%;background:var(--tg-bg);border:1px solid var(--tg-line);border-radius:10px;
+    color:var(--tg-text);padding:11px 13px;font-size:13.5px;font-family:inherit;outline:0;margin-bottom:12px;
+  }
+  .tg-modal-box textarea{resize:vertical;min-height:96px;}
+  .tg-modal-actions{display:flex;gap:10px;justify-content:flex-end;}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ========== S1 公告条 + 页头（一同吸顶） ========== -->
+<div class="tg-sticky-shell" id="tgTop">
+  <div class="tg-notice">
+    <div class="tg-wrap tg-notice-inner">
+      <span class="tg-notice-badge">官方发布</span>
+      <div class="tg-notice-track">
+        <span>【新增】《热搜幕后：一条短视频的诞生》完整版上线，共 4 集</span>
+        <span>【报名】「年度真实影像挑战」进入投稿期，截止 12 月 20 日</span>
+        <span>【更新】创作者中心新增数据看板与高清下载功能</span>
+        <span>【新增】《热搜幕后：一条短视频的诞生》完整版上线，共 4 集</span>
+        <span>【报名】「年度真实影像挑战」进入投稿期，截止 12 月 20 日</span>
+        <span>【更新】创作者中心新增数据看板与高清下载功能</span>
+      </div>
+    </div>
+  </div>
+  <header class="tg-header">
+    <div class="tg-wrap tg-header-inner">
+      <a class="tg-brand" href="#tgTop">
+        <span class="tg-brand-mark">推</span>
+        <span class="tg-brand-text">推特女神福利吃瓜<small>OFFICIAL VIDEO</small></span>
+      </a>
+      <nav class="tg-nav" aria-label="主导航">
+        <a href="#tgFocus">焦点</a>
+        <a href="#tgDeep">关键词解析</a>
+        <a href="#tgVideos">视频</a>
+        <a href="#tgTopics">企划</a>
+        <a href="#tgAuthors">创作者</a>
+        <a href="#tgCmts">口碑</a>
+        <a href="#tgFaq">帮助</a>
+      </nav>
+      <div class="tg-search">
+        <input type="search" id="tgSearchInput" placeholder="搜索内容 / 作者" aria-label="站内搜索">
+        <button type="button" id="tgSearchBtn">搜索</button>
+      </div>
+      <button class="tg-burger" id="tgBurger" aria-label="展开导航" aria-expanded="false">☰</button>
+    </div>
+    <div class="tg-wrap tg-search-msg" id="tgSearchMsg" role="status"></div>
+    <nav class="tg-mobile-nav tg-wrap" id="tgMobileNav" aria-label="移动端导航">
+      <a href="#tgFocus">焦点内容</a>
+      <a href="#tgDeep">关键词解析</a>
+      <a href="#tgVideos">视频精选</a>
+      <a href="#tgTopics">专题企划</a>
+      <a href="#tgAuthors">创作者矩阵</a>
+      <a href="#tgCmts">用户口碑</a>
+      <a href="#tgNews">企业动态</a>
+      <a href="#tgFaq">常见问题</a>
+    </nav>
+  </header>
+</div>
+
+<!-- ========== S2 品牌首屏（全幅主视觉 + 浮动文字） ========== -->
+<section class="tg-hero">
+  <div class="tg-hero-bg" aria-hidden="true">
+    <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 720'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23241a33'/%3E%3Cstop offset='0.5' stop-color='%23131a2a'/%3E%3Cstop offset='1' stop-color='%230f2430'/%3E%3C/linearGradient%3E%3CradialGradient id='g2' cx='0.72' cy='0.3' r='0.5'%3E%3Cstop offset='0' stop-color='%23ff4d6d' stop-opacity='0.55'/%3E%3Cstop offset='1' stop-color='%23ff4d6d' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='g3' cx='0.3' cy='0.8' r='0.55'%3E%3Cstop offset='0' stop-color='%2338e1c6' stop-opacity='0.4'/%3E%3Cstop offset='1' stop-color='%2338e1c6' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='1440' height='720' fill='url(%23g1)'/%3E%3Crect width='1440' height='720' fill='url(%23g2)'/%3E%3Crect width='1440' height='720' fill='url(%23g3)'/%3E%3Cg stroke='%23ffffff' stroke-opacity='0.09' stroke-width='1.5'%3E%3Cpath d='M0 560 Q 360 430 720 520 T 1440 440' fill='none'/%3E%3Cpath d='M0 640 Q 400 520 780 600 T 1440 520' fill='none'/%3E%3C/g%3E%3Cg fill='none' stroke='%23ff8aa0' stroke-opacity='0.6' stroke-width='2'%3E%3Ccircle cx='1080' cy='250' r='120'/%3E%3Ccircle cx='1080' cy='250' r='170' stroke-dasharray='6 14'/%3E%3C/g%3E%3Cg fill='%2338e1c6' fill-opacity='0.85'%3E%3Ccircle cx='250' cy='180' r='4'/%3E%3Ccircle cx='330' cy='250' r='2.5'/%3E%3Ccircle cx='1280' cy='560' r='3.5'/%3E%3C/g%3E%3Cg fill='%23ffffff' fill-opacity='0.82'%3E%3Cpath d='M1060 236 l34 14 -34 14z'/%3E%3C/g%3E%3C/svg%3E" alt="推特女神福利吃瓜官网首屏主视觉：深色环状光晕与播放标识构成的品牌视觉" width="1440" height="720">
+  </div>
+  <div class="tg-wrap tg-hero-inner">
+    <span class="tg-hero-tag">官方网站 · 品牌门户</span>
+    <h1>推特女神福利吃瓜</h1>
+    <p class="tg-hero-sub">热点在场，真实发生 —— 一档面向大众的娱乐热点影像社区</p>
+    <p class="tg-hero-lead">作为深耕娱乐内容领域的视频品牌，推特女神福利吃瓜官方网站以原创、高清、可追溯的内容为底座，连接创作者与观众，让每一次围观都留下值得讨论的细节。这里既有热搜背后的完整叙事，也有普通人的真实日常。</p>
+    <div class="tg-hero-actions">
+      <a class="tg-btn tg-btn--primary" href="#tgVideos">▶ 观看本期精选</a>
+      <a class="tg-btn" href="#tgAuthors">认识创作者</a>
+      <a class="tg-btn tg-btn--ghost" href="#tgTopics">查看专题企划</a>
+      <button class="tg-btn tg-btn--ghost" type="button" id="tgShareHero">分享给朋友</button>
+    </div>
+    <div class="tg-hero-stats">
+      <div class="tg-stat"><strong>3,860+</strong><span>原创高清视频内容</span></div>
+      <div class="tg-stat"><strong>218 万</strong><span>社区注册用户</span></div>
+      <div class="tg-stat"><strong>96.4%</strong><span>内容口碑好评率</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S3 焦点内容：一幅重点大图 + 文字列表 ========== -->
+<section class="tg-section" id="tgFocus">
+  <div class="tg-wrap">
+    <div class="tg-sec-head">
+      <p class="tg-sec-kicker">Focus · 焦点</p>
+      <h2>本期焦点：在热搜里看见完整的人</h2>
+      <p>推特女神福利吃瓜的内容团队坚持核实来源、补全时间线。以下为本期重点推荐，从一条被转发十万次的短片出发，回到它真正发生的那间屋子。</p>
+    </div>
+    <div class="tg-focus">
+      <article class="tg-focus-card">
+        <div class="tg-thumb">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 540'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232a1c33'/%3E%3Cstop offset='1' stop-color='%23121a26'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='960' height='540' fill='url(%23f1)'/%3E%3Cg stroke='%23ff4d6d' stroke-opacity='0.5' stroke-width='2' fill='none'%3E%3Crect x='150' y='120' width='300' height='300' rx='18'/%3E%3Crect x='190' y='160' width='300' height='300' rx='18' stroke='%2338e1c6' stroke-opacity='0.45'/%3E%3C/g%3E%3Cg fill='%23ffffff' fill-opacity='0.9'%3E%3Ccircle cx='700' cy='180' r='38' fill='%23ff4d6d' fill-opacity='0.85'/%3E%3Cpath d='M690 164 l26 16 -26 16z' fill='%23fff'/%3E%3C/g%3E%3Cg stroke='%23ffc857' stroke-opacity='0.6' stroke-width='4' stroke-linecap='round'%3E%3Cpath d='M600 380 h200'/%3E%3Cpath d='M600 420 h130'/%3E%3Cpath d='M600 460 h170'/%3E%3C/g%3E%3C/svg%3E" alt="焦点视频《一条被转发十万次的短片》封面，播放按钮与分镜框构图" width="960" height="540">
+          <span class="tg-play" aria-hidden="true"><i>▶</i></span>
+        </div>
+        <div class="tg-focus-body">
+          <h3>一条被转发十万次的短片，背后有七个被剪掉的人</h3>
+          <p>摄制组用 46 天还原这条短片的完整拍摄现场，采访了剪辑师、场务与两位被删减镜头的当事人。我们不追求站队，只想把讨论拉回到具体的人身上。</p>
+          <div class="tg-meta">
+            <span>作者：林见山</span><span>时长 18:42</span><span>播放 128.6 万</span>
+          </div>
+          <div class="tg-actions">
+            <button class="tg-mini-btn" type="button" data-like>♡ <span>8,421</span></button>
+            <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            <button class="tg-mini-btn" type="button" data-copy>⧉ 复制链接</button>
+            <button class="tg-mini-btn" type="button" data-comment>💬 评论</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="tg-textlist" id="tgFocusList">
+        <article class="tg-textitem">
+          <div class="tg-rank">01</div>
+          <div>
+            <h3>吃瓜之前先看时间线：三条热搜的对照复盘</h3>
+            <p>把一周内三条争议热搜按发布顺序排列，标注每一次信息反转的节点，告诉你“先信谁”的逻辑漏洞在哪。</p>
+            <div class="tg-meta"><span>陈默观察</span><span>播放 64.3 万</span><span>点赞 2.9 万</span></div>
+            <div class="tg-actions">
+              <button class="tg-mini-btn" type="button" data-like>♡ <span>29,114</span></button>
+              <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="tg-textitem">
+          <div class="tg-rank">02</div>
+          <div>
+            <h3>素人镜头里的城市夜班：凌晨两点的三单外卖</h3>
+            <p>跟拍一位夜班骑手与一位夜宵摊主，没有解说词，只有现场声。这是本季度口碑最高的一支纪实短片。</p>
+            <div class="tg-meta"><span>阿岩在拍</span><span>播放 51.8 万</span><span>点赞 1.7 万</span></div>
+            <div class="tg-actions">
+              <button class="tg-mini-btn" type="button" data-like>♡ <span>17,302</span></button>
+              <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="tg-textitem">
+          <div class="tg-rank">03</div>
+          <div>
+            <h3>创作者的镜头之外：一次坦白局</h3>
+            <p>六位内容创作者聊被误解、被截图、被断章取义的经历，也聊他们为什么还在继续记录。</p>
+            <div class="tg-meta"><span>小满不剪片</span><span>播放 39.2 万</span><span>点赞 1.1 万</span></div>
+            <div class="tg-actions">
+              <button class="tg-mini-btn" type="button" data-like>♡ <span>11,846</span></button>
+              <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="tg-textitem">
+          <div class="tg-rank">04</div>
+          <div>
+            <h3>拆解一条 15 秒短片的 9 个分镜</h3>
+            <p>逐帧讲解构图、收音与转场节奏，附可复用脚本模板，适合刚上手拍摄的创作者。</p>
+            <div class="tg-meta"><span>老鹿剪辑室</span><span>播放 28.7 万</span><span>点赞 9,204</span></div>
+            <div class="tg-actions">
+              <button class="tg-mini-btn" type="button" data-like>♡ <span>9,204</span></button>
+              <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 关键词解析（≥800字，4个H3） ========== -->
+<section class="tg-section" id="tgDeep">
+  <div class="tg-wrap">
+    <div class="tg-deep">
+      <p class="tg-sec-kicker">Deep Read · 深度解析</p>
+      <h2>“推特女神福利吃瓜”到底是什么样的内容品牌</h2>
+      <p>很多新用户第一次看到这个名字，会以为它只是又一个搬运热点的账号。事实恰好相反：推特女神福利吃瓜从 2019 年开始做原创影像，最初只有三个人、两台二手相机，如今已经成长为一个拥有稳定创作者队伍、完整审核流程与社区规范的企业级视频品牌。我们希望用下面四段解析，把这件事说清楚。</p>
+
+      <h3>一、名字的来源：一个热词，两种责任</h3>
+      <p>“吃瓜”在网络语境里指的是围观一件热闹事，天然带着距离感。推特女神福利吃瓜创立时选择这个名字，是想承认这种围观的真实存在，同时也给自己加了一条硬性约束：围观必须落在具体的人身上，不能停在标签上。因此，站内所有涉及争议人物的视频都会经过三道流程：来源核实、当事人回应征询、时间线校对。我们宁可晚发 24 小时，也不愿意把一个被曲解的片段推给几十万人。这个原则被写进了创作者手册，也成为品牌口碑最重要的来源。</p>
+      <p>“福利”两个字在我们的语境里，指的是给观众的实在好处：完整版不加广告中断、高清素材免费下载、脚本模板公开分享、每季度一次的剪辑教学直播。这些内容不带来直接收入，却是内容生态留住人的关键。很多老用户会说，是那些看起来很“亏本”的功能，让他们愿意一直留在这里。</p>
+
+      <h3>二、内容生态：从热搜到日常，三条内容线并行</h3>
+      <p>推特女神福利吃瓜的内容分为三条主线。第一条是热点复盘线，每周产出 2 到 3 支时长 8 至 20 分钟的深度视频，讲究信息密度与可核查性；第二条是城市与日常记录线，偏向纪实与治愈，节奏慢、情绪稳，适合睡前收看；第三条是创作方法线，包括拍摄、剪辑、脚本、选题思路，面向想自己动手的创作者。三条线各有固定的更新日期，也各自拥有独立的作者团队，互不挤占。</p>
+      <p>这种分线运营的好处是，新用户能很快找到自己想要的节奏，老用户也不会因为热点降温而无处可去。平台数据显示，同时关注两条以上内容线的用户，平均留存时长是单线用户的两倍多。这也是我们坚持“多元内容”而非“单一爆款”的原因：爆款会过去，内容生态才能持续运营。</p>
+
+      <h3>三、创作者机制：让认真记录的人被看见</h3>
+      <p>推特女神福利吃瓜的创作者矩阵目前由六个固定栏目和一批签约作者组成。签约并不等于独占，作者可以自由把作品发布到其他渠道；我们提供的是设备支持、剪辑协作、法律与版权协助，以及一笔按内容质量而非播放量发放的基础稿酬。这套机制听起来不够“刺激”，但它解决了一个长期问题：创作者不必为了流量去追更极端的话题。</p>
+      <p>每季度我们会组织一次内部看片会，所有签约作者都可以带着未完成的作品来讨论。很多最终成为精品的视频，都是在看片会上被同行“拦下来”重剪的。这种同行之间的互助，比任何算法推荐都更能提高内容品质。我们也把看片会的部分内容做成公开视频，让更多创作者从中受益。</p>
+
+      <h3>四、社区与口碑：围观之后，留下什么</h3>
+      <p>一个视频社区最怕的是只剩情绪，没有讨论。推特女神福利吃瓜在评论区实行“实名点赞、匿名可见”的折中方案：你可以不公开身份地表达观点，但只要被举报达到阈值，评论会进入人工复核，而不是直接被删除。我们希望争论是可见的、可回溯的，而不是靠一键消除来维护表面和谐。</p>
+      <p>口碑是长期积累的结果。站内 96.4% 的好评率并非来自某一个爆款，而是来自大量中腰部视频的稳定质量：画面干净、字幕准确、来源清楚、结尾不强行煽情。我们相信，用户能分辨出哪些内容是认真做的，哪些只是把别人的素材重新拼一遍。企业的社会责任，说到底就是不给后者提供舞台。</p>
+      <div class="tg-quote">“把热闹讲清楚，比把热闹讲得更大声更难。我们选择难的那条路。” —— 推特女神福利吃瓜内容委员会 2026 年度公开信摘录</div>
+      <p>截至 2026 年 11 月，推特女神福利吃瓜官方网站累计上线原创高清视频 3,860 余支，其中深度复盘类占比 31%，纪实记录类占比 42%，方法教学类占比 27%。这些数字会继续增长，但审核标准不会松动。欢迎你在本站多停留一会儿，也希望你能带着疑问离开，而不是带着情绪离开。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S3 视频内容：两列图文卡片 + 文字列表 ========== -->
+<section class="tg-section" id="tgVideos">
+  <div class="tg-wrap">
+    <div class="tg-sec-head">
+      <p class="tg-sec-kicker">Videos · 视频精选</p>
+      <h2>本周值得完整看完的五支视频</h2>
+      <p>推特女神福利吃瓜坚持少而精的更新节奏。以下内容均已上线高清版本，支持收藏与创作参考。</p>
+    </div>
+    <div class="tg-grid tg-g2">
+      <article class="tg-vcard">
+        <div class="tg-thumb">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 540'%3E%3Cdefs%3E%3ClinearGradient id='v1' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%2314262b'/%3E%3Cstop offset='1' stop-color='%23341d31'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='960' height='540' fill='url(%23v1)'/%3E%3Cg stroke='%2338e1c6' stroke-opacity='0.7' stroke-width='3' fill='none' stroke-linecap='round'%3E%3Cpath d='M120 400 L240 300 L360 350 L480 210'/%3E%3Cpath d='M480 210 L600 290 L720 200 L840 260'/%3E%3C/g%3E%3Cg fill='%23ffc857'%3E%3Ccircle cx='240' cy='300' r='9'/%3E%3Ccircle cx='480' cy='210' r='9'/%3E%3Ccircle cx='840' cy='260' r='9'/%3E%3C/g%3E%3Cg fill='%23ffffff' fill-opacity='0.16'%3E%3Crect x='120' y='120' width='240' height='12' rx='6'/%3E%3Crect x='120' y='150' width='150' height='12' rx='6'/%3E%3C/g%3E%3C/svg%3E" alt="视频《热搜降温之后》封面，冷色折线与数据节点构图" width="960" height="540">
+        </div>
+        <div class="tg-vcard-body">
+          <h3>热搜降温之后：一条话题的 72 小时生命曲线</h3>
+          <p>用可视化数据讲述一个话题从爆发到沉寂的全过程，并采访了三位因话题被卷入的普通人。</p>
+          <span class="tg-chip">行业观察</span><span class="tg-chip tg-chip--pink">深度测评</span>
+          <div class="tg-meta"><span>作者：陈默观察</span><span>播放 42.1 万</span><span>收藏 1.3 万</span></div>
+          <div class="tg-actions">
+            <button class="tg-mini-btn" type="button" data-like>♡ <span>14,220</span></button>
+            <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            <button class="tg-mini-btn" type="button" data-copy>⧉ 复制链接</button>
+          </div>
+        </div>
+      </article>
+      <article class="tg-vcard">
+        <div class="tg-thumb">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 540'%3E%3Cdefs%3E%3ClinearGradient id='v2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%231a2f22'/%3E%3Cstop offset='1' stop-color='%232b2a18'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='960' height='540' fill='url(%23v2)'/%3E%3Cg fill='none' stroke='%23e6ff9a' stroke-opacity='0.55' stroke-width='3'%3E%3Ccircle cx='300' cy='280' r='120'/%3E%3Ccircle cx='300' cy='280' r='170' stroke-dasharray='4 16'/%3E%3C/g%3E%3Cg fill='%23ffb3c1'%3E%3Crect x='560' y='180' width='240' height='14' rx='7'/%3E%3Crect x='560' y='220' width='180' height='14' rx='7'/%3E%3Crect x='560' y='260' width='210' height='14' rx='7'/%3E%3Crect x='560' y='300' width='140' height='14' rx='7'/%3E%3C/g%3E%3Cg fill='%23ffffff' fill-opacity='0.85'%3E%3Cpath d='M270 262 l44 18 -44 18z'/%3E%3C/g%3E%3C/svg%3E" alt="视频《在家搭一个小小直播间》封面，圆形灯位示意与参数条构图" width="960" height="540">
+        </div>
+        <div class="tg-vcard-body">
+          <h3>在家搭一个小小直播间：800 元预算的灯光方案</h3>
+          <p>从主灯、补光到背景，手把手演示三种家庭环境下都能用的低成本布光方法。</p>
+          <span class="tg-chip">教程干货</span><span class="tg-chip">实用技巧</span>
+          <div class="tg-meta"><span>作者：老鹿剪辑室</span><span>播放 33.5 万</span><span>收藏 2.7 万</span></div>
+          <div class="tg-actions">
+            <button class="tg-mini-btn" type="button" data-like>♡ <span>12,930</span></button>
+            <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            <button class="tg-mini-btn" type="button" data-copy>⧉ 复制链接</button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="tg-textlist" style="margin-top:20px;">
+      <article class="tg-textitem">
+        <div class="tg-rank">05</div>
+        <div>
+          <h3>菜市场里的镜头语言：跟着摄影指导逛一趟早市</h3>
+          <p>没有脚本，只有观察。摄影指导边走边讲如何在不打扰他人的前提下拍到有温度的画面。</p>
+          <div class="tg-meta"><span>作者：阿岩在拍</span><span>播放 26.4 万</span><span>点赞 8,730</span><span>收藏 6,210</span></div>
+          <div class="tg-actions">
+            <button class="tg-mini-btn" type="button" data-like>♡ <span>8,730</span></button>
+            <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            <button class="tg-mini-btn" type="button" data-comment>💬 评论</button>
+          </div>
+        </div>
+      </article>
+      <article class="tg-textitem">
+        <div class="tg-rank">06</div>
+        <div>
+          <h3>她说：被截图之后，我还想继续说话</h3>
+          <p>一位创作者讲述自己一句话被截成三秒动图后的一整年，以及她重新拿起相机的过程。</p>
+          <div class="tg-meta"><span>作者：小满不剪片</span><span>播放 22.9 万</span><span>点赞 9,480</span><span>收藏 4,120</span></div>
+          <div class="tg-actions">
+            <button class="tg-mini-btn" type="button" data-like>♡ <span>9,480</span></button>
+            <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            <button class="tg-mini-btn" type="button" data-copy>⧉ 复制链接</button>
+          </div>
+        </div>
+      </article>
+      <article class="tg-textitem">
+        <div class="tg-rank">07</div>
+        <div>
+          <h3>十分钟学会安全转载：素材来源与授权自查清单</h3>
+          <p>面向新手创作者，讲清楚哪些素材能用、怎么标来源、遇到侵权投诉如何处理。</p>
+          <div class="tg-meta"><span>作者：周知栏目组</span><span>播放 19.6 万</span><span>点赞 7,110</span><span>收藏 8,900</span></div>
+          <div class="tg-actions">
+            <button class="tg-mini-btn" type="button" data-like>♡ <span>7,110</span></button>
+            <button class="tg-mini-btn" type="button" data-save>☆ 收藏</button>
+            <button class="tg-mini-btn" type="button" data-comment>💬 评论</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S4 专题企划 ========== -->
+<section class="tg-section" id="tgTopics">
+  <div class="tg-wrap">
+    <div class="tg-sec-head">
+      <p class="tg-sec-kicker">Projects · 专题企划</p>
+      <h2>正在进行中的三个品牌企划</h2>
+      <p>专题是推特女神福利吃瓜最具品牌辨识度的部分。每个企划都会持续数月，配有独立片单与创作者协作机制。</p>
+    </div>
+    <div class="tg-grid tg-g3">
+      <article class="tg-topic">
+        <div class="tg-topic-head">
+          <h3>《围观者笔记》</h3>
+          <span class="tg-status tg-status--live">更新中</span>
+        </div>
+        <p>聚焦争议事件中的旁观者角色，记录他们在转发、评论与沉默之间的选择。</p>
+        <ul>
+          <li>第 1 集：我转了，但我没看完</li>
+          <li>第 2 集：一条辟谣视频的诞生</li>
+          <li>第 3 集：评论区里的三种沉默</li>
+        </ul>
+      </article>
+      <article class="tg-topic">
+        <div class="tg-topic-head">
+          <h3>《凌晨三点的城市》</h3>
+          <span class="tg-status tg-status--live">更新中</span>
+        </div>
+        <p>城市夜班纪实系列，每集跟拍一位深夜工作者，全程无旁白、无配乐。</p>
+        <ul>
+          <li>外卖骑手：三单之间的十分钟</li>
+          <li>便利店店长：关东煮的第五次补货</li>
+          <li>急诊护士：交接班前的最后一张单</li>
+        </ul>
+      </article>
+      <article class="tg-topic">
+        <div class="tg-topic-head">
+          <h3>《真实影像挑战》</h3>
+          <span class="tg-status">报名中</span>
+        </div>
+        <p>面向全站创作者的年度赛事，鼓励用一支短片讲清一件事，不接受摆拍与虚构。</p>
+        <ul>
+          <li>赛道一：三分钟讲清一个误会</li>
+          <li>赛道二：我家楼下的一平米</li>
+          <li>赛道三：给三年前的自己发条消息</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S5 创作者矩阵：双列简介 ========== -->
+<section class="tg-section" id="tgAuthors">
+  <div class="tg-wrap">
+    <div class="tg-sec-head">
+      <p class="tg-sec-kicker">Creators · 创作者</p>
+      <h2>站在镜头背后的人</h2>
+      <p>推特女神福利吃瓜的签约创作者来自不同背景：有人做过记者，有人做过厨师，有人只是把手机当成了日记本。点击卡片旁的按钮可以查看他们的完整档案。</p>
+    </div>
+    <div class="tg-grid tg-g2">
+      <article class="tg-author">
+        <div class="tg-avatar" style="background:linear-gradient(135deg,#ff4d6d,#ffc857);">林</div>
+        <div>
+          <h3>林见山</h3>
+          <div class="tg-role">深度复盘 · 人物访谈</div>
+          <p>前调查记者，擅长在庞杂信息中理出时间线。做视频六年，坚持每条片子标注全部信息来源，认为“可核查”是内容创作者最基本的礼貌。</p>
+          <div class="tg-nums"><span>作品 <b>142</b></span><span>粉丝 <b>36.8 万</b></span></div>
+          <div class="tg-actions" style="margin-top:10px;">
+            <button class="tg-mini-btn" type="button" data-author="林见山">查看档案</button>
+          </div>
+        </div>
+      </article>
+      <article class="tg-author">
+        <div class="tg-avatar" style="background:linear-gradient(135deg,#38e1c6,#3b82f6);">陈</div>
+        <div>
+          <h3>陈默观察</h3>
+          <div class="tg-role">行业观察 · 数据可视化</div>
+          <p>做过五年数据分析，现在把表格变成能看懂的视频。喜欢用冷静的数字讲热闹的事，常说“情绪会过去，曲线会留下”，是站内收藏率最高的作者之一。</p>
+          <div class="tg-nums"><span>作品 <b>97</b></span><span>粉丝 <b>28.3 万</b></span></div>
+          <div class="tg-actions" style="margin-top:10px;">
+            <button class="tg-mini-btn" type="button" data-author="陈默观察">查看档案</button>
+          </div>
+        </div>
+      </article>
+      <article class="tg-author">
+        <div class="tg-avatar" style="background:linear-gradient(135deg,#a855f7,#ff8aa0);">岩</div>
+        <div>
+          <h3>阿岩在拍</h3>
+          <div class="tg-role">城市探索 · 纪实摄影</div>
+          <p>常年在街头拍人，器材越换越轻，耐心越用越足。相信最好的镜头是让人忘记镜头存在的那种，作品多次被本地影像展收录。</p>
+          <div class="tg-nums"><span>作品 <b>118</b></span><span>粉丝 <b>21.5 万</b></span></div>
+          <div class="tg-actions" style="margin-top:10px;">
+            <button class="tg-mini-btn" type="button" data-author="阿岩在拍">查看档案</button>
+          </div>
+        </div>
+      </article>
+      <article class="tg-author">
+        <div class="tg-avatar" style="background:linear-gradient(135deg,#ffc857,#ff7a59);">满</div>
+        <div>
+          <h3>小满不剪片</h3>
+          <div class="tg-role">情感故事 · 创作幕后</div>
+          <p>名字是个玩笑，其实每支片子都剪到凌晨。擅长把私人记忆做成公共话题，作品节奏克制，被观众称为“深夜开着的台灯”。</p>
+          <div class="tg-nums"><span>作品 <b>86</b></span><span>粉丝 <b>18.9 万</b></span></div>
+          <div class="tg-actions" style="margin-top:10px;">
+            <button class="tg-mini-btn" type="button" data-author="小满不剪片">查看档案</button>
+          </div>
+        </div>
+      </article>
+      <article class="tg-author">
+        <div class="tg-avatar" style="background:linear-gradient(135deg,#3b82f6,#38e1c6);">鹿</div>
+        <div>
+          <h3>老鹿剪辑室</h3>
+          <div class="tg-role">教程干货 · 剪辑技巧</div>
+          <p>十年剪辑师，讲课从不用“高级感”这种词，只讲具体参数和操作顺序。其脚本模板被站内创作者下载超过十二万次。</p>
+          <div class="tg-nums"><span>作品 <b>156</b></span><span>粉丝 <b>24.1 万</b></span></div>
+          <div class="tg-actions" style="margin-top:10px;">
+            <button class="tg-mini-btn" type="button" data-author="老鹿剪辑室">查看档案</button>
+          </div>
+        </div>
+      </article>
+      <article class="tg-author">
+        <div class="tg-avatar" style="background:linear-gradient(135deg,#e6ff9a,#38e1c6);">周</div>
+        <div>
+          <h3>周知栏目组</h3>
+          <div class="tg-role">知识科普 · 版权合规</div>
+          <p>由三位前媒体法务与编辑组成的小团队，专注做版权与合规科普。语速不疾不徐，把枯燥条款讲成能听懂的日常经验，是创作者最信任的“避坑指南”。</p>
+          <div class="tg-nums"><span>作品 <b>63</b></span><span>粉丝 <b>15.7 万</b></span></div>
+          <div class="tg-actions" style="margin-top:10px;">
+            <button class="tg-mini-btn" type="button" data-author="周知栏目组">查看档案</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S6 用户评价：引用摘录式双列 ========== -->
+<section class="tg-section" id="tgCmts">
+  <div class="tg-wrap">
+    <div class="tg-sec-head">
+      <p class="tg-sec-kicker">Reviews · 用户口碑</p>
+      <h2>他们留在这里的理由</h2>
+      <p>以下评价来自站内观众的公开留言，按时间倒序排列，未做编辑加工。</p>
+    </div>
+    <div class="tg-cmts">
+      <article class="tg-cmt">
+        <p>很少见到一个同名品牌的视频账号会把“出处”标得这么细。我甚至照着片尾的参考文献去读了一遍原始材料，这种尊重观众智商的态度值得长期关注。</p>
+        <div class="tg-cmt-by"><span class="tg-dot" style="background:#ff8aa0;">述</span> 述而不作 · 关注 11 个月</div>
+      </article>
+      <article class="tg-cmt">
+        <p>本来只是随便看看吃瓜内容，结果被《凌晨三点的城市》留下来。画面很安静，看完会想去认真吃一顿夜宵，然后好好睡觉。</p>
+        <div class="tg-cmt-by"><span class="tg-dot" style="background:#38e1c6;">柚</span> 柚子与小满 · 关注 2 年</div>
+      </article>
+      <article class="tg-cmt">
+        <p>作为刚起步的创作者，老鹿的灯光那期真的救了我。按他给的参数布置，手机拍出来的画面立刻干净了。希望以后多出这种可以直接照做的教程。</p>
+        <div class="tg-cmt-by"><span class="tg-dot" style="background:#ffc857;">小</span> 小林要开机 · 关注 7 个月</div>
+      </article>
+      <article class="tg-cmt">
+        <p>有一个小建议：希望 PC 端也能支持倍速记忆。整体体验很好，页面干净，没有那种突然弹出的广告，比很多同类网站舒服。</p>
+        <div class="tg-cmt-by"><span class="tg-dot" style="background:#a855f7;">林</span> 林间有风 · 关注 4 个月</div>
+      </article>
+      <article class="tg-cmt">
+        <p>《围观者笔记》第三集看到一半暂停了很久。它没有骂任何人，却让我反思自己上个月转发的那条视频。这种片子不火才奇怪，但火不火好像也不重要了。</p>
+        <div class="tg-cmt-by"><span class="tg-dot" style="background:#3b82f6;">慢</span> 慢半拍的人 · 关注 1 年</div>
+      </article>
+      <article class="tg-cmt">
+        <p>我是做地方文化记录的，投稿两次都被退，但退回邮件里给了具体建议和参考片单，感受到了尊重。第三次投的片子已经进了专题候选，会继续加油。</p>
+        <div class="tg-cmt-by"><span class="tg-dot" style="background:#ff7a59;">巷</span> 巷口工作室 · 关注 5 个月</div>
+      </article>
+      <article class="tg-cmt">
+        <p>声音处理很专业，室内场景基本没有回声，字幕断句也舒服。作为听觉敏感的人，这一点比什么都重要。</p>
+        <div class="tg-cmt-by"><span class="tg-dot" style="background:#e6ff9a;">安</span> 安静看片 · 关注 9 个月</div>
+      </article>
+      <article class="tg-cmt">
+        <p>追了三年，从一个观众变成了投稿者。最喜欢这里的一点是，争议话题也不会只给一边的声音。希望品牌能一直保持这个尺度。</p>
+        <div class="tg-cmt-by"><span class="tg-dot" style="background:#38e1c6;">昼</span> 昼行灯 · 关注 3 年</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== M10 企业动态时间线 ========== -->
+<section class="tg-section" id="tgNews">
+  <div class="tg-wrap">
+    <div class="tg-sec-head">
+      <p class="tg-sec-kicker">News · 企业动态</p>
+      <h2>推特女神福利吃瓜近期官方发布</h2>
+      <p>关于平台功能、内容规划与团队动向的最新消息，由官方渠道统一发布。</p>
+    </div>
+    <div class="tg-grid tg-g2">
+      <div class="tg-timeline">
+        <div class="tg-tl-item">
+          <time>2026 年 11 月 18 日</time>
+          <h3>创作者中心上线数据看板</h3>
+          <p>作者可查看单支视频的完播率、收藏转化与来源渠道，数据每日更新，支持导出。</p>
+        </div>
+        <div class="tg-tl-item">
+          <time>2026 年 11 月 09 日</time>
+          <h3>《热搜幕后》完整版上线</h3>
+          <p>共 4 集，累计时长 76 分钟，全部采用可核查来源标注，附文字版时间线。</p>
+        </div>
+        <div class="tg-tl-item">
+          <time>2026 年 10 月 27 日</time>
+          <h3>年度真实影像挑战开启报名</h3>
+          <p>三个赛道，总奖金池 30 万元，面向全站创作者，不接受摆拍与虚构叙事。</p>
+        </div>
+      </div>
+      <div class="tg-timeline">
+        <div class="tg-tl-item">
+          <time>2026 年 10 月 15 日</time>
+          <h3>内容审核流程升级为三审制</h3>
+          <p>新增当事人回应征询环节，涉及争议人物的视频将延长复核周期，确保信息完整。</p>
+        </div>
+        <div class="tg-tl-item">
+          <time>2026 年 09 月 30 日</time>
+          <h3>高清素材库向签约作者开放下载</h3>
+          <p>首批开放 1,200 组空镜素材，全部为站内原创拍摄，可商用且无需额外授权。</p>
+        </div>
+        <div class="tg-tl-item">
+          <time>2026 年 09 月 12 日</time>
+          <h3>与三家本地影像机构达成合作</h3>
+          <p>联合开展青年创作者扶持计划，提供设备借用与剪辑场地支持，首期招募 40 人。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== M11 合作品牌 + M12 FAQ ========== -->
+<section class="tg-section" id="tgPartners">
+  <div class="tg-wrap">
+    <div class="tg-sec-head">
+      <p class="tg-sec-kicker">Partners · 合作伙伴</p>
+      <h2>与我们同行的机构与品牌</h2>
+      <p>推特女神福利吃瓜与合作伙伴共同推进原创内容扶持、版权保护与青年影像教育。</p>
+    </div>
+    <div class="tg-partners">
+      <div class="tg-partner">拾光影像社</div>
+      <div class="tg-partner">城市记录计划</div>
+      <div class="tg-partner">青禾青年基金</div>
+      <div class="tg-partner">南岸剪辑工坊</div>
+    </div>
+  </div>
+</section>
+
+<section class="tg-section" id="tgFaq">
+  <div class="tg-wrap">
+    <div class="tg-sec-head">
+      <p class="tg-sec-kicker">FAQ · 常见问题</p>
+      <h2>关于平台与内容，你可能想知道</h2>
+      <p>若以下内容未能解答你的疑问，可通过页面底部的投稿与联系入口与我们取得联系。</p>
+    </div>
+    <div class="tg-faq">
+      <details open>
+        <summary>推特女神福利吃瓜的视频可以转载吗？</summary>
+        <p>站内所有原创内容版权归作者与平台共同所有。个人非商业转载需保留完整片尾与来源标注；商业用途请通过联系入口提交申请，我们会在三个工作日内回复。</p>
+      </details>
+      <details>
+        <summary>如何成为签约创作者？</summary>
+        <p>先在站内发布至少三支原创作品，然后在创作者中心提交申请。我们更看重选题的真诚度与信息完整度，而非粉丝数量。审核周期一般为两到三周。</p>
+      </details>
+      <details>
+        <summary>内容被误判或下架怎么办？</summary>
+        <p>每支视频的处理决定都会附带具体理由。你可以在通知内发起申诉，申诉将进入人工复核，复核期间视频保留在原位并可正常访问。</p>
+      </details>
+      <details>
+        <summary>站内的“福利”具体指什么？</summary>
+        <p>包括完整版不插播广告、高清素材免费下载、公开脚本模板、季度剪辑公开课，以及面向新作者的设备借用计划，均为免费提供。</p>
+      </details>
+      <details>
+        <summary>年度真实影像挑战的评审标准是什么？</summary>
+        <p>四个维度：信息准确度、叙事完整度、影像完成度、社会价值。不接受摆拍、虚构事实与未经许可的他人隐私素材，违规作品直接取消资格。</p>
+      </details>
+      <details>
+        <summary>观看视频需要注册账号吗？</summary>
+        <p>不需要。注册后可收藏、评论与订阅作者，并保存观看进度。注册流程仅需手机号验证，不强制填写真实姓名。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ========== M13 投稿 / 联系 CTA ========== -->
+<section class="tg-section">
+  <div class="tg-wrap">
+    <div class="tg-cta">
+      <div>
+        <h2>带着你的片子来，我们认真看</h2>
+        <p>推特女神福利吃瓜长期开放投稿。无论是三分钟的城市片段，还是半小时的深度复盘，只要来源清楚、叙事真诚，都欢迎提交。每份投稿都会收到具体反馈，而不是自动回复。</p>
+      </div>
+      <div class="tg-cta-actions">
+        <button class="tg-btn tg-btn--primary" type="button" id="tgSubmitBtn">我要投稿</button>
+        <button class="tg-btn" type="button" id="tgCopyMail">复制联系邮箱</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S8 页脚 ========== -->
+<footer class="tg-footer">
+  <div class="tg-wrap">
+    <div class="tg-footer-grid">
+      <div class="tg-footer-brand">
+        <a class="tg-brand" href="#tgTop" style="margin-bottom:6px;">
+          <span class="tg-brand-mark">推</span>
+          <span class="tg-brand-text">推特女神福利吃瓜<small>OFFICIAL VIDEO</small></span>
+        </a>
+        <p>推特女神福利吃瓜官方网站，专注原创高清热点影像与真实记录。我们相信认真记录的力量，也尊重每一位观众的判断力。</p>
+      </div>
+      <div>
+        <h3>探索</h3>
+        <ul>
+          <li><a href="#tgFocus">焦点内容</a></li>
+          <li><a href="#tgVideos">视频精选</a></li>
+          <li><a href="#tgTopics">专题企划</a></li>
+          <li><a href="#tgAuthors">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>关于</h3>
+        <ul>
+          <li><a href="#tgDeep">品牌解析</a></li>
+          <li><a href="#tgNews">企业动态</a></li>
+          <li><a href="#tgCmts">用户口碑</a></li>
+          <li><a href="#tgFaq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>联系</h3>
+        <ul>
+          <li>投稿邮箱：submit@tg-official.example</li>
+          <li>内容合作：media@tg-official.example</li>
+          <li>版权申诉：rights@tg-official.example</li>
+          <li>工作时间：周一至周五 10:00–19:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tg-copy">
+      <span>© 2019–2026 推特女神福利吃瓜 官方网站 | 版权所有 | 持续运营中</span>
+      <span>内容合规备案号：影像内容字第 2026-1102 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="tg-top" id="tgTopBtn" type="button" aria-label="回到顶部">↑</button>
+<div class="tg-toast" id="tgToast" role="status" aria-live="polite"></div>
+
+<div class="tg-modal" id="tgModal" role="dialog" aria-modal="true" aria-labelledby="tgModalTitle">
+  <div class="tg-modal-box">
+    <h3 id="tgModalTitle">提示</h3>
+    <p id="tgModalDesc"></p>
+    <div id="tgModalFields"></div>
+    <div class="tg-modal-actions">
+      <button class="tg-btn tg-btn--ghost" type="button" id="tgModalCancel">关闭</button>
+      <button class="tg-btn tg-btn--primary" type="button" id="tgModalOk">确定</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- Toast ---------- */
+  var toastEl = document.getElementById('tgToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-on'); }, 2100);
+  }
+
+  /* ---------- 移动端导航折叠 ---------- */
+  var burger = document.getElementById('tgBurger');
+  var mobileNav = document.getElementById('tgMobileNav');
+  burger.addEventListener('click', function(){
+    var open = mobileNav.classList.toggle('is-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.textContent = open ? '✕' : '☰';
+  });
+  mobileNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      mobileNav.classList.remove('is-open');
+      burger.setAttribute('aria-expanded','false');
+      burger.textContent = '☰';
+    }
+  });
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchInput = document.getElementById('tgSearchInput');
+  var searchBtn = document.getElementById('tgSearchBtn');
+  var searchMsg = document.getElementById('tgSearchMsg');
+  var titles = [
+    '一条被转发十万次的短片，背后有七个被剪掉的人',
+    '吃瓜之前先看时间线：三条热搜的对照复盘',
+    '素人镜头里的城市夜班：凌晨两点的三单外卖',
+    '创作者的镜头之外：一次坦白局',
+    '拆解一条 15 秒短片的 9 个分镜',
+    '热搜降温之后：一条话题的 72 小时生命曲线',
+    '在家搭一个小小直播间：800 元预算的灯光方案',
+    '菜市场里的镜头语言：跟着摄影指导逛一趟早市',
+    '她说：被截图之后，我还想继续说话',
+    '十分钟学会安全转载：素材来源与授权自查清单'
+  ];
+  function runSearch(){
+    var kw = (searchInput.value || '').trim();
+    if(!kw){
+      searchMsg.textContent = '请输入关键词，例如「剪辑」「时间线」「城市」。';
+      searchMsg.classList.add('is-on');
+      return;
+    }
+    var hits = titles.filter(function(t){ return t.indexOf(kw) > -1; });
+    if(hits.length){
+      searchMsg.textContent = '匹配到 ' + hits.length + ' 条内容，例如：' + hits[0];
+    }else{
+      searchMsg.textContent = '暂未找到与「' + kw + '」直接匹配的标题，换个词试试，或浏览下方精选视频。';
+    }
+    searchMsg.classList.add('is-on');
+  }
+  searchBtn.addEventListener('click', runSearch);
+  searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); runSearch(); } });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-like]');
+    if(likeBtn){
+      var span = likeBtn.querySelector('span');
+      var num = parseInt((span ? span.textContent : '0').replace(/[^\d]/g,''), 10) || 0;
+      var on = likeBtn.classList.toggle('is-active');
+      if(span){
+        span.textContent = (on ? num + 1 : Math.max(0, num - 1)).toLocaleString('en-US');
+      }
+      likeBtn.firstChild.nodeValue = on ? '♥ ' : '♡ ';
+      showToast(on ? '已点赞，感谢支持原创内容' : '已取消点赞');
+      return;
+    }
+    var saveBtn = e.target.closest('[data-save]');
+    if(saveBtn){
+      var saved = saveBtn.classList.toggle('is-saved');
+      saveBtn.textContent = saved ? '★ 已收藏' : '☆ 收藏';
+      showToast(saved ? '已收藏到你的片单' : '已从片单移除');
+      return;
+    }
+  });
+
+  /* ---------- 弹窗通用 ---------- */
+  var modal = document.getElementById('tgModal');
+  var modalTitle = document.getElementById('tgModalTitle');
+  var modalDesc = document.getElementById('tgModalDesc');
+  var modalFields = document.getElementById('tgModalFields');
+  var modalOk = document.getElementById('tgModalOk');
+  var modalCancel = document.getElementById('tgModalCancel');
+  var modalAction = null;
+
+  function openModal(title, desc, fieldsHTML, onOk, okText){
+    modalTitle.textContent = title;
+    modalDesc.textContent = desc;
+    modalFields.innerHTML = fieldsHTML || '';
+    modalOk.textContent = okText || '确定';
+    modalAction = onOk || null;
+    modal.classList.add('is-on');
+    var firstInput = modal.querySelector('input, textarea');
+    if(firstInput){ setTimeout(function(){ firstInput.focus(); }, 40); }
+  }
+  function closeModal(){ modal.classList.remove('is-on'); modalAction = null; }
+  modalCancel.addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && modal.classList.contains('is-on')) closeModal(); });
+  modalOk.addEventListener('click', function(){ if(modalAction){ modalAction(); } });
+
+  /* ---------- 评论展开 ---------- */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-comment]');
+    if(!btn) return;
+    openModal(
+      '发表你的看法',
+      '理性表达、尊重当事人。评论将进入公开讨论区，请勿包含他人隐私信息。',
+      '<textarea id="tgCommentText" placeholder="说说你的看法……"></textarea>',
+      function(){
+        var v = (document.getElementById('tgCommentText').value || '').trim();
+        if(v.length < 4){ showToast('评论太短啦，至少写 4 个字'); return; }
+        closeModal();
+        showToast('评论已提交，审核通过后可见');
+      },
+      '提交评论'
+    );
+  });
+
+  /* ---------- 作者档案弹窗 ---------- */
+  var authorData = {
+    '林见山': '前调查记者，2019 年加入推特女神福利吃瓜。代表系列《围观者笔记》，累计创作 142 支视频，擅长把复杂事件拆成可理解的时间线。',
+    '陈默观察': '数据分析师出身的创作者，专注行业观察与数据可视化。作品《热搜降温之后》被多家内容研究机构引用。',
+    '阿岩在拍': '街头纪实摄影师，作品风格克制。长期跟拍城市夜班人群，主张“镜头退后一步，人就会自然起来”。',
+    '小满不剪片': '情感故事与创作幕后作者，作品以私人记忆切入公共议题，节奏缓慢但情绪准确。',
+    '老鹿剪辑室': '十年剪辑经验，站内最受欢迎的教程作者。脚本模板累计下载超十二万次，讲课从不使用模糊概念。',
+    '周知栏目组': '由三位前媒体法务与编辑组成，专注版权与合规科普，是创作者公认的避坑指南。'
+  };
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-author]');
+    if(!btn) return;
+    var name = btn.getAttribute('data-author');
+    openModal(
+      name + ' · 创作者档案',
+      authorData[name] || '该创作者档案正在整理中。',
+      '',
+      function(){ closeModal(); },
+      '知道了'
+    );
+    modalOk.onclick = function(){ closeModal(); };
+  });
+
+  /* ---------- 复制链接 / 分享 ---------- */
+  function copyText(text, okMsg){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ showToast(okMsg); }, function(){ showToast('复制失败，请手动选择复制'); });
+    }else{
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      try{ document.execCommand('copy'); showToast(okMsg); }catch(err){ showToast('复制失败，请手动选择复制'); }
+      document.body.removeChild(ta);
+    }
+  }
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-copy]');
+    if(!btn) return;
+    copyText('推特女神福利吃瓜 · 官方视频内容', '链接已复制，分享给朋友吧');
+  });
+  document.getElementById('tgShareHero').addEventListener('click', function(){
+    copyText('推特女神福利吃瓜 · 官方网站', '分享链接已复制');
+  });
+  document.getElementById('tgCopyMail').addEventListener('click', function(){
+    copyText('submit@tg-official.example', '投稿邮箱已复制');
+  });
+
+  /* ---------- 投稿弹窗 ---------- */
+  document.getElementById('tgSubmitBtn').addEventListener('click', function(){
+    openModal(
+      '提交你的作品',
+      '请留下作品名称与联系方式，我们会在三个工作日内给出具体反馈。请确保作品为本人原创。',
+      '<input type="text" id="tgSubTitle" placeholder="作品名称">' +
+      '<input type="text" id="tgSubContact" placeholder="联系方式（邮箱或手机号）">' +
+      '<textarea id="tgSubDesc" placeholder="简单介绍你的作品与拍摄背景"></textarea>',
+      function(){
+        var t = (document.getElementById('tgSubTitle').value || '').trim();
+        var c = (document.getElementById('tgSubContact').value || '').trim();
+        if(!t || !c){ showToast('请填写作品名称与联系方式'); return; }
+        closeModal();
+        showToast('投稿已收到，感谢你的信任');
+      },
+      '提交投稿'
+    );
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById('tgTopBtn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ topBtn.classList.add('is-on'); }
+    else{ topBtn.classList.remove('is-on'); }
+  });
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+})();
+</script>
+</body>
+  </html>
